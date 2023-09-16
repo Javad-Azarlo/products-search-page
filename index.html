@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="products search">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Javad azarlouyeh">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>صفحه محصولات</h3>
+    </header>
+    <main>
+        <section>
+            <div id="search">
+                <input placeholder="جستجو بر اساس نام" id="search-input" type="text">
+                <div>
+                    <button data-filter="all" class="filter selected">همه</button>
+                    <button data-filter="tech" class="filter">تکنولوژی</button>
+                    <button data-filter="clothing" class="filter">پوشاک</button>
+                    <button data-filter="helth" class="filter">پزشکی</button>
+                </div>
+                <div id="search_prce">
+                    <input placeholder="جستجو بر اساس قیمت" type="number" >
+                    <button>جستجو</button> 
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="product-item" data-categ="tech" >
+                <div>
+                     <img src="pic/deeppurple1.webp" alt="iphon 14 pro">
+                    </div>
+                 <p>apple iphone 14 pro</p>
+                <span >$ 1499</span>
+            </div>
+             <div class="product-item" data-categ="clothing">
+                <div>
+                     <img src="pic/shoespng.png" alt="shoes">
+                  </div>             
+                <p>running shoes</p>
+                <span>$ 199</span>
+            </div>
+            <div class="product-item" data-categ="tech">
+                <div>
+                     <img src="pic/appleWhatch.png" alt="apple watch">
+                  </div>             
+                <p>apple watch</p>
+                <span>$ 399</span>
+            </div>
+            <div class="product-item" data-categ="clothing">
+                <div>
+                     <img src="pic/college-bag.png" alt="college-bag">
+                  </div>             
+                <p>college-bag</p>
+                <span>$ 139</span>
+            </div>
+            <div class="product-item" data-categ="clothing">
+                <div>
+                     <img src="pic/boy's-jacket.jpg" alt="boy's-jacket">
+                  </div>             
+                <p>boy's jacket</p>
+                <span>$ 169</span>
+            </div>
+            <div class="product-item" data-categ="helth">
+                <div>
+                     <img src="pic/ceratin heair car.jpg" alt="ceratin heair car">
+                  </div>             
+                <p>ceratin heair car</p>
+                <span>$ 39</span>
+            </div>
+            <div class="product-item" data-categ="tech">
+                <div>
+                     <img src="pic/appleairpodspro.png" alt="apple airpods pro">
+                  </div>             
+                <p>apple airpods pro</p>
+                <span>$ 299</span>
+            </div>
+            <div class="product-item" data-categ="helth">
+                <div>
+                     <img src="pic/vitaminE.png" alt="vitamin E">
+                  </div>             
+                <p>vitamin E</p>
+                <span>$ 39</span>
+            </div>
+            <div class="product-item" data-categ="helth">
+                <div>
+                     <img src="pic/facecream.png" alt="facecream">
+                  </div>             
+                <p>face cream</p>
+                <span>$ 40</span>
+            </div>
+        </section>
+    </main>
+   <script src="script1.js" type="module"></script>
+ 
+</body>
+</html>
